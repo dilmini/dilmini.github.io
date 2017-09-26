@@ -1,0 +1,18 @@
+title: Dilmini - Gems in the river of Mind
+author: Auzty
+description: "The place we share experiences we value with the world"
+url: http://127.0.0.1:4000
+aboutus: |
+    We are two Software Engineers live in a lovely suburb near Brisbane,
+    with our two little sons. Our motherland is Sri Lanka, a beautiful island in Indian Ocean. 
+
+    We'll be sharing the cherished bits and bytes of our life in this web space.
+
+# Lists the travel posts 
+travel:
+    - 2017-09-03-boonah-to-killarney.md
+    - 2015-09-15-great-ocean-road.md
+
+port: 4000
+
+exclude: ['readme.md']

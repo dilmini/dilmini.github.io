@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{% if page.description %} {{ page.description }} {% else %} {{ site.description }} {% endif %}">
+    <title>{% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}</title>   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="/assets/styles/dilmini.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+  </head>
+  <body class="bg-faded">   
+    <div class="container-fluid text-center a-banner">
+      <div class="row h-100 justify-content-center align-items-center">
+        <div class="container a-darkorange">  
+          <h1 class="lead a-title">Kanchana & Hasanga</h1>   
+          <p>.............................................</p>
+          <h2 class="lead a-thick">~ Life of a Software House ~</h2>
+        </div>
+      </div>  
+    </div>
+    {{ content }}
+    <div class="container-fluid">
+      <div class="row a-pureblack-bg py-3 justify-content-center">
+        <p class="a-white py-0 my-0">© 2017 DILMINI</p>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+  </body>
+</html>

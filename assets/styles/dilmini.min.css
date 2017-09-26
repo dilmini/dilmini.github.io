@@ -1,0 +1,101 @@
+html {height: 100%;}
+body {height: 100%; font-family: 'Roboto', sans-serif;}
+
+.a-white-bg {background-color: #ffffff;}
+.a-pureblack-bg {background-color: #000000;}
+.a-black-bg {background-color: #000000;}
+.a-blue-bg {background-color: #0275d8;}
+.a-cyan-bg {background-color: #68bab7;}
+.a-darkblue-bg {background-color: #223462;}
+.a-green40-bg {background-color: #009933;}
+.a-purple-bg {background-color: #5900b3;}
+.a-meroon-bg {background-color: #990000;}
+.a-orange-bg {background-color: #fa6423;}
+.a-gray-bg {background-color: #eceeef;}
+.a-beige-bg {background-color: #ffbf80;}
+.a-cream-bg {background-color: #ffe6cc;}
+.a-transparent-bg {background-color: transparent;}
+
+.a-white {color: #ffffff;}
+.a-black {color: #051d21;}
+.a-blue {color: #0275d8;}
+.a-orange {color: #fa6423;}
+.a-darkorange {color: #e65100;}
+
+
+.a-think {
+	font-weight: bold; 
+}
+
+.a-banner {
+  width: 100%;
+  height: 40%;
+  background: url("/assets/images/banner.jpg") center center;
+  background-size: cover;
+}
+
+.a-aboutus {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 100%;
+  content: url("/assets/images/aboutus.jpg");
+  background-size: contain;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+}
+
+.a-philosophy {
+  width: 100%;
+  height: 262px;
+  background: url("/assets/images/philosophy.jpg") center center;
+  background-size: cover;
+}
+
+.a-travel {
+  width: 100%;
+  height: 262px;
+  background: url("/assets/images/travel.jpg") center center;
+  background-size: cover;
+}
+
+.a-orange-overlay:before{
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: block;
+  z-index:0;
+  background-color: rgba(255, 191, 128,0.3);
+}
+
+.a-black-overlay:before{
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: block;
+  z-index:0;
+  background-color: rgba(0, 0, 0,0.6);
+}
+
+.a-title {
+  font-family: 'Bad Script', cursive;
+  font-size: 60px;
+  padding-top: 20px
+}
+
+.a-topic {
+  font-family: 'Bad Script', cursive;
+  font-size: 40px;
+}
+
+.a-postslist {
+    list-style-type: none;
+    margin: 10px 0px 0px 5px;
+    padding: 0;
+}

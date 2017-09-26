@@ -1,0 +1,19 @@
+---
+layout: content
+---
+{% include menubar.html travel1='active' travel2='<span class="sr-only">(current)</span>' %}
+<div class="container-fluid a-cream-bg">
+	<div class="container">
+		<div class="row h-100 justify-content-left align-items-left">	 
+			<ul class="a-postslist">
+			  {% for post in site.posts %}
+			    <li>
+			      <a href="{{ post.url }}" class="a-darkorange a-thick">{{ post.title }}</a>
+			      {{ post.excerpt }}
+			      <hr/>
+			    </li>
+			  {% endfor %}
+			</ul>
+		</div>	
+	</div>
+</div>
